@@ -1,2 +1,7 @@
 Starting to work on the validation of prediction model.
 
+get_past_trends.py 
+    gets past candidates set of topics from timesense without clustering of topics. Need to cluster together the variances of same topic.
+
+cluster_topics.py 
+	clusters all the similar buzzing keywords into one using Bi-gram.
