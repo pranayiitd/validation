@@ -5,3 +5,69 @@ get_past_trends.py
 
 cluster_topics.py 
 	clusters all the similar buzzing keywords into one using Bi-gram.
+
+
+miami heat, 
+tropical, lautenberg, corolla, tony awards
+
+ 
+ 
+
+Strong trend
+ puig, sean parker,lautenberg, 
+
+--------------------------------
+Constant weak trend
+
+
+tony awards, 2.1
+["tony award predictions 2013", "the tony award nominations", "2013 tony awards", "tony nominations", "tony nominees", "odds on tony awards", "tony award", "2013 tony nominations", "la broadcast time for 2013 tony awards", "tony awards tickets", "who will win tony awards 2013", "tony awards 2013 pippin", "hello tony awards", "when are the tony awards 2013", "tony award winners", "tony awards 2013", "who are the tony nominees", "tony nominees 2013", "tony awards 2013 commercial", "tony awards nominations 2013", "neil patrick harris tony awards", "2013 tony award nominees", "tony nominations 2013", "video tony awards performance", "tony awards 2013 nominees", "tony predictions", "the tony awards", "tony awards broadway musicals"]
+
+tim tebow 2.1
+["tim tebow what nfl team", "tim tebow next team", "tim tebow reputation", "which team got tim tebow", "belichick hates tebow", "tebow belichick", "tim tebow nfl team", "tim tebow 2013 nfl team", "tim tebow girlfriend", "bill belichick at bruins game", "where is tim tebow", "tim tebow news update", "tim tebow rumors", "bill belichick", "tim tebow", "tim tebow news", "tim tebow quick football", "tim tebow latest news", "what happened to tim tebow", "tim tebow plays", "belichick on tebow", "anything new on tim tebow", "tim tebow yahoo", "tim tebow update", "tim tebow playbook", "bill belichick on tim tebow", "tim tebow will play again", "tim tebow released", "tim tebow in nfl", "tim tebow 2013 team", "tim tebow patriots"]
+
+allen iverson 1.57
+["allen iverson", "allen iverson latest news", "allen iverson news", "allen iverson 2013", "allen iverson news updates"]
+--------------------------------
+Non -Trend
+
+xi jinping 1.9
+["xi jinping ontario", "chinese president xi jinping arrived in california", "xi jinping holding umbrella for peng", "obama to meet xi jinping", "michelle obama us xi jinping", "xi jinping china dream", "obama xi jinping", "u.s president barack obama right meets with xi jinping", "chinese president xi jinping", "chinese president xi jinping mrs obama", "president xi jinping and wife love story", "obama xi jinping korea", "xi jinping meet with obama", "obama xi jinping meeting location", "xi jinping", "obama and xi jinping", "xi jinping obama summit 2013"]
+
+laker_rumor 1.8
+laker_rumor     lakers rumors   1.836
+["la lakers news and rumors", "la lakers latest free agent rumors", "lakers rumors news", "lakers rumors 2013", "lakers rumors news today", "new laker free agent rumors", "lakers news and rumors", "latest lakers rumors trade", "lakers free agent rumors", "los angeles laker rumors", "lakers rumors", "latest laker rumors", "trade rumors lakers 2013", "lakers trade rumors", "lakers trade rumors 2013"]
+
+sarah jessica parker 1.7
+["bitten by sarah jessica parker", "sarah jessica parker twins", "sarah parker shoes", "sarah jessica parker bitten", "sarah jessica parker clothing line", "sarah jessica parker", "sarah jessica parker in leather", "sarah jessica parker shoe line", "jessica sarah parker", "sarah jessica parker shoes", "bitten sarah jessica parker clothing line", "bitten sarah jessica parker", "pics of sarah jessica parker", "how old is sarah jessica parker", "sarah jessica parker pics"]
+
+seacat 1.7
+["brett seacat trial 2013", "seacat trial kansas thursday", "seacat trial evidence", "brett seacat", "brett seacat murder case", "where is the brett seacat trial", "brett seacat and wife", "seacat murder trial", "brett seacat news", "update on the brett seacat trial", "brett seacat wife", "vashti seacat murder trial", "brett seacat trial", "seacat trial"]
+
+
+zastryzny very low 1.6
+
+--------------------------------
+Fading trend
+
+amar_braxton_baby      tamar braxton baby      1.769
+tamar_braxton_baby      tamar braxton baby      1.769
+["tamar braxton news", "tamar braxton has her baby", "tamar braxton latest news", "tamar braxton and her baby", "tamar braxton update", "tamar braxton has baby", "what is tamar braxton having", "tamar braxton the one", "tamar braxton baby news", "tamar braxton", "tamar braxton baby", "tamar braxton new video", "tamar braxton video", "tamar braxton having a baby", "tamar braxton baby shower", "tamar braxton and baby"]
+_________________________________
+Rising
+
+michelle_obama_heckler 1.55
+
+["michelle obama video heckler", "michelle obama confronts heckler", "did michelle obama heckler use code", "time magazine michelle obama heckler", "michelle obama checks a heckler", "michelle obama and heckler", "reaction to michelle obama heckler", "michelle obama heckler video", "video of michelle confronting heckler", "michelle obama heckler standoff", "michelle obama confronts heckler video", "what did heckler say to michelle obama", "mrs obama confronts heckler", "michelle obama heckler fundraiser", "video of michelle obama heckler", "michelle obama heckler audio", "cnn michelle obama heckler", "michelle confronts heckler", "heckler and michelle obama", "heckler with michelle obama", "heckler of michelle obama", "michelle obamas heckler", "michelle obama and the heckler", "obama confronts heckler", "michelle obama handles heckler", "heckler michelle obama"]
+
+----------------------------------
+dwayne johnson 0.6
+["dwayne johnson hero reality show", "dwayne johnson the football player", "the hero 2013 dwayne johnson", "hero tv show dwayne johnson", "the rock dwayne johnson tv premier", "when does the hero begin with dwayne johnson", "dwayne johnson buff photo", "dwayne the rock johnson yahoo", "dwayne johnson new tv show", "was dwayne johnson in the movie be cool", "dwayne rock johnson new show", "what is dwayne johnson race", "dwayne johnson", "the rock dwayne johnson age 15", "dwayne the rock johnson when he was 15"]
+
+
+jeep patriot 1.3
+eep_patriot_recall     jeep patriot recall     1.3509
+["2012 jeep patriot recall", "2010 jeep patriot recalls", "2012 jeep patriot recall out of fuel", "jeep patriot recall", "jeep recall 2007 patriot", "jeep patriot recalls 2011", "recall 2010 jeep patriot", "jeep recall 2013 patriot", "jeep patriot recall 2012", "2011 jeep patriot recall", "2008 jeep patriot recall"]
+
+mark appel  very weak 1.5
+["mark appel houston mlb draft", "mark appel selected no 1 overall by houston astros in the mlb draft", "what high school did mark appel go to", "mark appel and pat appel", "mark appel major stanford", "mark appel high school baseball player houston", "mark appel 2013 mlb draft", "mark appel stanford baseball", "mark appel contract", "baseball player mark appel of stanford", "mark appel"]
