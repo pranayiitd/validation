@@ -6,6 +6,11 @@ get_past_trends.py
 cluster_topics.py 
 	clusters all the similar buzzing keywords into one using Bi-gram.
 
+cluster_tweets.py
+	Cluster tweeets by exact phrase matching from the set of phrases.
+
+
+
 
 miami heat, 
 tropical, lautenberg, corolla, tony awards
@@ -21,13 +26,13 @@ Constant weak trend
 
 
 tony awards, 2.1
-["tony award predictions 2013", "the tony award nominations", "2013 tony awards", "tony nominations", "tony nominees", "odds on tony awards", "tony award", "2013 tony nominations", "la broadcast time for 2013 tony awards", "tony awards tickets", "who will win tony awards 2013", "tony awards 2013 pippin", "hello tony awards", "when are the tony awards 2013", "tony award winners", "tony awards 2013", "who are the tony nominees", "tony nominees 2013", "tony awards 2013 commercial", "tony awards nominations 2013", "neil patrick harris tony awards", "2013 tony award nominees", "tony nominations 2013", "video tony awards performance", "tony awards 2013 nominees", "tony predictions", "the tony awards", "tony awards broadway musicals"]
+"tony award", "award nominations", "tony awards", "tony nominations", "tony nominees", "tony nominations"
 
 tim tebow 2.1
-["tim tebow what nfl team", "tim tebow next team", "tim tebow reputation", "which team got tim tebow", "belichick hates tebow", "tebow belichick", "tim tebow nfl team", "tim tebow 2013 nfl team", "tim tebow girlfriend", "bill belichick at bruins game", "where is tim tebow", "tim tebow news update", "tim tebow rumors", "bill belichick", "tim tebow", "tim tebow news", "tim tebow quick football", "tim tebow latest news", "what happened to tim tebow", "tim tebow plays", "belichick on tebow", "anything new on tim tebow", "tim tebow yahoo", "tim tebow update", "tim tebow playbook", "bill belichick on tim tebow", "tim tebow will play again", "tim tebow released", "tim tebow in nfl", "tim tebow 2013 team", "tim tebow patriots"]
+["tim tebow","tebow belichick", "tebow"]
 
 allen iverson 1.57
-["allen iverson", "allen iverson latest news", "allen iverson news", "allen iverson 2013", "allen iverson news updates"]
+["allen iverson", "iversion"]
 --------------------------------
 Non -Trend
 
