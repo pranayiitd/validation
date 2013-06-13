@@ -25,7 +25,6 @@ def past_trends_time(date, time, api, loc):
 	f.write(response)
 	f.close()
 
-
 def get_trends():
 	api = "http://dictionary.timesense.yahoo.com/buzz/en-US"
 	loc = "../past_trends"
@@ -58,7 +57,6 @@ def get_trends():
 		
 		time.sleep(1)
 
-
 def convert_time(t):
 	if(t >= 1000):
 		return str(t)
@@ -70,6 +68,5 @@ def convert_time(t):
 				return "00"+str(t)
 			else:
 				return "000"+str(t)
-
 
 get_trends()

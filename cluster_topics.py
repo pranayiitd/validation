@@ -3,8 +3,6 @@ import os
 from datetime import datetime
 import time 
 
-
-
 def dump_log(loc, arr):
 	f = open(loc,"a")
 	s =""	
@@ -13,8 +11,6 @@ def dump_log(loc, arr):
 	s = s+"\n"
 	f.write(s)
 	f.close()
-
-
 
 # GENERATES ALL THE BIGRAMES FOR THE GIVEN PHRASE
 def generate_bigrams(phrase):
@@ -27,7 +23,6 @@ def generate_bigrams(phrase):
 			if(i == 0):
 				bigrams.append(tokens[i])
 	return bigrams
-
 
 def bigram_cluser(bigrams_set, bigram, c1, c2, bigrams_score, score):
 	tf  = False
@@ -56,8 +51,6 @@ def bigram_cluser(bigrams_set, bigram, c1, c2, bigrams_score, score):
 		c2 +=1
 
 	return [c1, c2]
-
-
 
 def main():
 
