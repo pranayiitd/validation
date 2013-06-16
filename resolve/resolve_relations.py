@@ -181,8 +181,6 @@ def dump_text(loc, dst, log, api_config):
 			else:
 				dump_log(log, [loc, count_authors, count_followers, count_friends, datetime.now(), limit," Random Twitter or bad user"])
 
-
-
 def neo_graph(loc, log, api_config):
 	"""
 	Collect and store the twitter relations in Neo4j.
@@ -213,7 +211,7 @@ def neo_graph(loc, log, api_config):
 		if(author['tagged'] == None and author['bad'] == None):
 
 			# Sleeping 2 sec to behave nicely with TwitterAPI.
-			
+			out
 
 			# resp = api_client.request("https://api.twitter.com/1.1/account/verify_credentials.json")
 
@@ -323,4 +321,5 @@ def main():
 	# 		main()
 	# else:
 	# 	dump_text(loc, dst, log, api_config)
+
 main()		
