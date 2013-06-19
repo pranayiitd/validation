@@ -2,8 +2,9 @@ from py2neo import neo4j
 import json
 from pprint import pprint
 from datetime import datetime
-import connected_comp
 import time
+import connected_comp
+
 
 def dump_log(loc, arr):
 	f = open(loc,"a")
@@ -31,3 +32,13 @@ def main():
 		dump_log(loc, arr + [datetime.now(), t1, "to" ,t2])
 		l2 += window
 main()
+
+tweet_window_map = {
+	
+	"jeep" : [1370390351, 1370906392],
+	"mark_appel" : [1370394609, 1370907519],
+	"matta" : [1370393222, 1370892182],
+	"mayor" : [1370390881, 1370908452],
+	"jolie" : [1368489378, 1368575701],
+	
+	}
