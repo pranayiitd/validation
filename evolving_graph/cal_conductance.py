@@ -65,7 +65,8 @@ def handle_row_conductance(row):
 					neo4j.Direction.OUTGOING, "follows")
 		internal_edges_count += len(friends)
 		external_edges_count += node['friends_count']
-
+		print node
+		print internal_edges_count, external_edges_count, len(friends)
 def conductance_window(start, end):
 	"""
 	calculate the conductance of the graph in this window.
@@ -111,6 +112,11 @@ def cal_conductance():
 	while (l2 < last_tweet):
 		t1 = time.ctime(l1)
 		t2 = time.ctime(l2)
+		global internal_edges_count
+		global external_edges_count
+		external_edges_count = 0
+		internal_edges_count = 0
+		
 		arr = conductance_window(l1, l2)
 		dump_log(loc, arr+[datetime.now(), t1, t2])
 		l2 += window
